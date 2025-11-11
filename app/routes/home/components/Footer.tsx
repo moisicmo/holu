@@ -1,6 +1,6 @@
 import { Phone, Facebook, Instagram, Twitter, Mail, MapPin } from 'lucide-react';
 
-export default function Footer() {
+export const Footer = () => {
   return (
     <footer id="footer" className="bg-black text-white px-6 pt-16 pb-10">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">

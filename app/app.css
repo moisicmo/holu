@@ -83,7 +83,9 @@
 .animate-marquee {
   animation: marquee 20s linear infinite;
 }
-
+[id] {
+  scroll-margin-top: 7rem; /* ajusta según la altura del navbar */
+}
 
 /* Variables de tema (usamos solo light como predeterminado) */
 @theme {

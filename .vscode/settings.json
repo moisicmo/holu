@@ -8,9 +8,7 @@
     "editorBracketHighlight.foreground6": "#98C379",
     "editorCursor.foreground": "#ffff00",
     "terminalCursor.foreground": "#ffff00",
-    "editor.selectionBackground": "#555534",
-    "activityBar.background": "#1E3223",
-    "titleBar.activeBackground": "#2A4631",
-    "titleBar.activeForeground": "#F8FBF9"
-  }
+    "editor.selectionBackground": "#555534"
+  },
+  "gitConfigUser.selectedProfile": "moi"
 }
