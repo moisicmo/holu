@@ -35,6 +35,14 @@ export const Navbar = () => {
             Características
           </a>
         </li>
+        <li>
+          <Link
+            to="/holu_prime/privacy"
+            className="hover:text-green-400 transition-colors duration-200"
+          >
+            Políticas de Privacidad
+          </Link>
+        </li>
       </ul>
 
       {/* Mobile toggle button */}
@@ -61,6 +69,13 @@ export const Navbar = () => {
           >
             Características
           </a>
+            <Link
+            to="/holu_prime/privacy"
+            onClick={toggleMenu}
+            className="hover:text-green-400 transition-colors duration-200"
+          >
+            Políticas de Privacidad
+          </Link>
         </div>
       )}
     </nav>
